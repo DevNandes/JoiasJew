@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoiasJew</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="Imagens/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <div class="menu">
+            <div class="menu-esquerda" id="menu-esquerda">
+                <div class="hamburguer"data-menu></div>
+            </div>
+            <div class="menu-centro">
+                <div class="logo">
+                    <img src="Imagens/logo.jpg" alt="Logo">
+                </div>
+            </div>
+            <div class="menu-direita">
+                <div class="icon">
+                    <div class="carrinho">
+                        <span class="material-icons">
+                            shopping_cart_checkout
+                        </span>
+                    </div>
+                    <span class="count">0</span>
+                </div> 
+                <div class="Avatar">
+                    <img src="Imagens/Avatar.jpg" class="avatar" alt="Avatar">
+                </div>       
+            </div>
+            <div class="menu-container" data-menu-container>
+                <h3 class="menu-titulo">Menu</h3>
+                <ul class="menu-pos">
+                    <li class="menu-item"><a href="#">Pagina Inicial</a></li>
+                    <li class="menu-item"><a href="#">Comprar</a></li>
+                    <li class="menu-item"><a href="#">Sobre Nós</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="filtro-pesquisa">
+            <button class="filtro" id="filtro" data-filtro>
+                <img class="img-filtro" src="Imagens/filtro.png" alt="">
+                <span>Filtro</span>
+            </button>
+            <div class="conteudo-pesquisa">
+                <input id="pesquisa" type="text" placeholder="Digite o que busca">
+                <a id="botao-pesquisa" href="">
+                    <button class="botao">
+                        <span class="material-icons">search</span>
+                    </button>
+                </a>
+            </div>
+            <div class="filtro-container" data-filtro-container>
+                <h3 class="filtro-titulo">Filtro</h3>
+
+                <ul class="filtro-pos">
+                    <li class="filtro-texto">
+                        <span class="texto-marcas">Marcas:</span>
+                    </li>
+                    <li class="filtro-todos">
+                        <input type="radio" name="filtrado" value="todos" id="todos" checked>
+                        <span>Todas</span>
+                    </li>
+                    <li class="filtro-item">
+                        <input type="radio" name="filtrado" value="vivara" id="vivara">
+                        <span>Vivara</span>
+                    </li>
+                    <li class="filtro-item">
+                        <input type="radio" name="filtrado" value="bigben" id="bigben">
+                        <span>BigBen</span>
+                    </li>
+                    <li class="filtro-botoes">
+                        <button class="botao-filtrar" data-filter>Filtrar</button>
+                        <button class="botao-limpar" data-limpador>Limpar Filtro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="produtos">
+            <div class="produto" data-marca='vivara'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://images.vivara.com.br/Stores/Fotos/BR00046217-v1.png">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Brinco Ouro Amarelo e Diamantes</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 1.190</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='vivara'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://images.vivara.com.br/Stores/Fotos/PU00015434-v1a.png">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Pulseira Ouro Amarelo</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 1.050</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='vivara'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://images.vivara.com.br/Stores/Fotos/BE00049322-v1.png">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Pingente Cruz Ouro Amarelo</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 390</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='vivara'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://images.vivara.com.br/Stores/Produtos/BR00046711-v.jpg">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Brinco Flor Ouro Amarelo e Pérolas</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 750</h3>
+                    </div>
+                    
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='bigben'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://bigben.vtexassets.com/arquivos/ids/289496-600-auto?v=637875279539270000&width=600&height=auto&aspect=true">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Gargantilha de Escapulário de Ouro</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 2.745</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='bigben'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://bigben.vteximg.com.br/arquivos/ids/294442-300-300/Laser-c--rodio.jpg?v=637905432637200000">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Anel em Ouro</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 1.398</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='bigben'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://bigben.vtexassets.com/arquivos/ids/286773-800-auto?v=637854550806730000&width=800&height=auto&aspect=true">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>
+                            Brinco em Ouro e Rodolita
+                        </h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 2.634</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-marca='bigben'>
+                <a href="" class="link-imagem">
+                    <img class='imagem-produto' src="https://bigben.vtexassets.com/arquivos/ids/286621-800-auto?v=637853690853630000&width=800&height=auto&aspect=true">
+                </a>
+                <div class="escritas-produto">
+                    <div class="nome-produto">
+                        <h3>Pulseira em Ouro Infantil</h3>
+                    </div>
+                    <div class="compra-valor">
+                        <h3>R$ 1.430</h3>
+                    </div>
+                    <div>
+                        <button class="comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>

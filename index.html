@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoiasJew</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="Imagens/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img src="Imagens/logo.jpg" alt="Logotipo" class="logo">
+        </div>
+    </header>
+    <section>
+        <div class="insercoes">
+            <p class="txt1" id="txt1">Digite seu email:</p>
+            <input type="email" name="email" class="digitar" autocomplete="off" placeholder="Digite 'admin' para acessar"  id="email">
+            <p class="txt1">Digite sua senha:</p>
+            <input type="password" name="senha" class="digitar" autocomplete="off" placeholder="Digite 'admin' para acessar" id="senha">
+        </div>
+        <div class="resposta">
+            <button class="Botão" id="enter" onclick="Enter()">Login</button>
+        </div>
+        <div class="cadastro-div">
+            <div id="erro" class="erro"></div>
+        </div>      
+    </section>
+    <footer>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
