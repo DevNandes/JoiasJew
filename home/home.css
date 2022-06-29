@@ -299,9 +299,10 @@ header > .menu > .menu-container {
     left: 0;
     right: 0;
     margin: auto;
-    width: 220px;
-    transition: all .5s;
     vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .info{
     bottom: 100%;
@@ -331,6 +332,7 @@ header > .menu > .menu-container {
     text-align: center;
     display: block;
     cursor: pointer;
+    padding-bottom: 110px;
 }
 .nome-produto > .nome{
     display: block;

@@ -1,92 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (max-width: 600px){
+    body{
+        background-color: rgb(255, 255, 255);
+        font: 23pt Arial;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 125px;
+        
+    }
+    header{
+        color: white;
+        text-align: center;
+    }
 
-body {
-    background-color: rgb(255, 255, 255);
-    font: 23pt Arial;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    margin-top: 125px;
-    
+    section{
+        background: rgb(218, 218, 218);
+        padding: 15px;
+        width: 200px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgb(83, 82, 82);
+    }
+
+    footer{
+        color: #ffffff1f;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .logo{
+        width: 200px;
+        height: 50px;
+        margin-bottom: 60px;
+    }
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insercoes{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .resposta{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    .txt1{
+        font: normal 9pt arial;
+        margin-block-start: 2px;
+        margin-block-end: 2px;
+        margin-top: 10px;
+        width: 210px;
+    }
+
+    .digitar{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        width: 200px;
+        height: 15px;
+        font-size: 9pt;
+    }
+
+    .Botão{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(143, 143, 143);
+        cursor: pointer;
+        height: 20px;
+        width: 56px;
+        font-size: 10pt;
+    }
+
+    .erro{
+        font: normal 9pt Arial;
+        color: rgb(105, 105, 105);
+        justify-content: center;
+        padding: 4px;
+        display: none;
+        padding-top: 8px;
+    }
 }
-header{
-    color: white;
-    text-align: center;
+@media (min-width: 600px){
+    body {
+        background-color: rgb(255, 255, 255);
+        font: 23pt Arial;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 125px;
+        
+    }
+    header{
+        color: white;
+        text-align: center;
+    }
+
+    section{
+        background: rgb(218, 218, 218);
+        padding: 15px;
+        width: 400px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgb(83, 82, 82);
+    }
+
+    footer{
+        color: #ffffff1f;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .logo{
+        width: 200px;
+        height: 50px;
+        margin-bottom: 60px;
+    }
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insercoes{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .resposta{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    .txt1{
+        font: normal 12pt arial;
+        margin-block-start: 2px;
+        margin-block-end: 2px;
+        margin-top: 10px;
+        width: 255px;
+    }
+
+    .digitar{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        width: 254px;
+        height: 20px;
+        font-size: 12pt;
+    }
+
+    .Botão{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(143, 143, 143);
+        cursor: pointer;
+        height: 28px;
+        width: 56px;
+        font-size: 11pt;
+    }
+
+    .erro{
+        font: normal 12pt Arial;
+        color: rgb(105, 105, 105);
+        justify-content: center;
+        padding: 4px;
+        display: none;
+        padding-top: 8px;
+    }
 }
-
-section{
-    background: rgb(218, 218, 218);
-    padding: 15px;
-    width: 400px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgb(83, 82, 82);
-}
-
-footer{
-    color: #ffffff1f;
-    text-align: center;
-    font-style: italic;
-}
-
-.logo{
-    width: 200px;
-    height: 50px;
-    margin-bottom: 60px;
-}
-
-.titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.insercoes{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-
-.resposta{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-
-}
-
-.txt1{
-    font: normal 12pt arial;
-    margin-block-start: 2px;
-    margin-block-end: 2px;
-    margin-top: 10px;
-    width: 255px;
-}
-
-.digitar{
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    width: 254px;
-    height: 20px;
-    font-size: 12pt;
-}
-
-.Botão{
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(143, 143, 143);
-    cursor: pointer;
-    height: 28px;
-    width: 56px;
-    font-size: 11pt;
-}
-
-.erro{
-    font: normal 12pt Arial;
-    color: rgb(105, 105, 105);
-    justify-content: center;
-    padding: 4px;
-    display: none;
-    padding-top: 8px;
-}
-
